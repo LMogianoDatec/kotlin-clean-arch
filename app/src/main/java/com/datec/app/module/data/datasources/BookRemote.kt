@@ -11,7 +11,7 @@ class BookRemoteDataSource @Inject constructor(
 
     suspend fun getBooks(): List<BookDto> {
         return client.get(
-            path = "books",
+            path = "/books",
             headers = mapOf(
                 "Authorization" to "Bearer TU_TOKEN_REAL_AQUI"
             ),
@@ -30,7 +30,7 @@ class BookRemoteDataSource @Inject constructor(
         }
 
         return client.post(
-            path = "search",
+            path = "/search",
             bodyObj = body
         )
     }
