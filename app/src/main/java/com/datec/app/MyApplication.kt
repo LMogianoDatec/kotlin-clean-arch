@@ -7,7 +7,6 @@ import dagger.hilt.android.HiltAndroidApp
 @HiltAndroidApp
 class MyApplication : Application() {
 	override fun onCreate() {
-		// Simple bootstrap (loads EnvConfig) before other initializations
 		AppBootstrap.init(this)
 		super.onCreate()
 	}

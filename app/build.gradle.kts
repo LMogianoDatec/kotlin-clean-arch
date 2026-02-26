@@ -42,7 +42,6 @@ android {
     productFlavors {
         create("dev") {
             dimension = "env"
-            // no applicationId -> usa el mismo appId
         }
         create("qa") {
             dimension = "env"

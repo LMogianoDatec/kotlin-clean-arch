@@ -2,10 +2,6 @@ package com.datec.app.core.services
 
 import android.util.Log
 
-/**
- * Lightweight logging service that prefixes logs with emojis and avoids
- * unnecessary string work by accepting message lambdas (inlined).
- */
 object LogService {
     const val DEFAULT_TAG = "APP"
 

@@ -7,9 +7,6 @@ import com.datec.app.core.EnvConfig
 object AppBootstrap {
     private const val TAG = "BOOT"
 
-    /**
-     * Simple synchronous bootstrap. Keep lightweight: load EnvConfig and other quick inits here.
-     */
     fun init(application: Application) {
         try {
             Log.d(TAG, "Bootstrapping app: loading EnvConfig")

@@ -24,7 +24,6 @@ abstract class AppModule {
         impl: BookRepositoryImpl
     ): BookRepository
 
-
     companion object {
         @Provides
         @Singleton
@@ -45,7 +44,5 @@ abstract class AppModule {
                 baseUrl = EnvConfig.API_BASE_URL
             )
         }
-
-        
     }
 }

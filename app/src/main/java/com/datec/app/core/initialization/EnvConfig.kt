@@ -6,7 +6,6 @@ import com.datec.app.core.services.LogService
 
 enum class Environment {
 
-
     DEV, QA, PROD;
 
     companion object {
