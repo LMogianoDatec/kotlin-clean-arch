@@ -1,4 +1,4 @@
-package com.datec.app.core
+package com.datec.app.core.initialization
 
 import android.content.Context
 import com.datec.app.BuildConfig
