@@ -4,8 +4,8 @@ import okhttp3.Interceptor
 import okhttp3.Response
 import okhttp3.ResponseBody.Companion.toResponseBody
 import android.util.Log
-import com.datec.app.core.EnvConfig
-import com.datec.app.core.Environment
+import com.datec.app.core.initialization.EnvConfig
+import com.datec.app.core.initialization.Environment
 
 class GlobalInterceptor : Interceptor {
     override fun intercept(chain: Interceptor.Chain): Response {

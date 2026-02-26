@@ -2,7 +2,7 @@ package com.datec.app.core.initialization
 
 import android.app.Application
 import android.util.Log
-import com.datec.app.core.EnvConfig
+import com.datec.app.core.initialization.EnvConfig
 
 object AppBootstrap {
     private const val TAG = "BOOT"

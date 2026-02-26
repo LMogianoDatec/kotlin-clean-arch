@@ -9,12 +9,9 @@ class GetBooksUseCase @Inject constructor(
     private val repository: BookRepository
 ) {
 
-    suspend operator fun call(): List<Book> {
+    suspend operator fun invoke(): List<Book> {
         val books = repository.getBooks()
 
-        // val filteredBooks = books.filter { it.pageCount ?: 0 > 100 }
-        val sortedBooks = filteredBooks.sortedBy { it.title }
-
-        return filteredBooks
+        return books
     }
 }

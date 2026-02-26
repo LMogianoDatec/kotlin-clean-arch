@@ -1,6 +1,6 @@
 package com.datec.app.core.initialization
 
-import com.datec.app.core.EnvConfig
+import com.datec.app.core.initialization.EnvConfig
 import com.datec.app.module.domain.repositories.BookRepository
 import com.datec.app.module.data.repositories.BookRepositoryImpl
 import com.datec.app.core.network.ApiClient
